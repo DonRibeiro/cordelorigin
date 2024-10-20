@@ -58,9 +58,15 @@ section{
     font-size: 3.5vw;
 }
 
+
 section.normal{
     background-color: white;
     color: black;
+}
+
+section.imagem{
+    background-color: rgb(83, 82, 82);
+    color: white;
 }
 
 .imagem  p{
@@ -70,9 +76,12 @@ section.normal{
     padding: 10px;
 }
 
-section.imagem{
-    background-color: rgb(83, 82, 82);
-    color: white;
+#img1{
+background-image: url(imagens/background001.jpg);
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
 }
 
 footer{
